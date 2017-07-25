@@ -1,0 +1,61 @@
+/** {
+  border: 1px solid red;
+}*/
+
+html, body { 
+  width: 100%; 
+  height: 100%;
+  margin: 0 auto; 
+  text-align: center; 
+}
+
+.container {
+  background-color: #808F87;
+  width: 300px;
+  margin: auto;
+}
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+  .container input {
+    margin: 10px;
+    height: 30px;
+    width: 82%;
+    border: none;
+    text-align: right;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    
+  }
+
+  .container table {
+    margin: auto;
+    background-color: #AFD0BF;
+    padding: 23px;
+  }
+
+  .container table button {
+      width: 50px;
+      height: 50px;
+      border: 2px solid #5B452C;
+      background-color: #84643F;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  .container table button:hover {
+      width: 50px;
+      height: 50px;
+      border: 2px solid #5B452C;
+      background-color: #9B865B;
+  }
+
+  .container table #equal {
+    width: 100px;
+
+  }
+
