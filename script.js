@@ -43,6 +43,7 @@ function equClick() {
 		if(equSet == false) {
 			equation = this.value;
 			equSet = true;
+			
 			test();
 		} else {
 

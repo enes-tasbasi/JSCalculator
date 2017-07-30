@@ -7,12 +7,21 @@ html, body {
   height: 100%;
   margin: 0 auto; 
   text-align: center; 
+  background-image: url("../imgs/pattern-13.jpg");
 }
 
 .container {
   background-color: #808F87;
   width: 300px;
   margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .container {
+      width: 70%;
+      
+    }
 }
 
 .container {
