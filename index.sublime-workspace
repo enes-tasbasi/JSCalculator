@@ -1,0 +1,359 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"menu-ite",
+				"menu-item-info"
+			],
+			[
+				"eq",
+				"equSet"
+			],
+			[
+				"Equ",
+				"equSet"
+			],
+			[
+				"equ",
+				"equation"
+			],
+			[
+				"input",
+				"inputBox"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"backgou",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"lorem",
+				"lorempixel"
+			],
+			[
+				"text",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"git status"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Bera/workspace/ajax/api/menu.json",
+		"/C/Users/Bera/workspace/ajax/css/main.css",
+		"/C/Users/Bera/workspace/ajax/js/app.js",
+		"/C/Users/Bera/workspace/ajax/index.html",
+		"/C/Users/Bera/AppData/Local/Temp/Rar$DRa0.011/src/ajax/js/app.js",
+		"/C/Users/Bera/AppData/Local/Temp/Rar$DRa0.598/src/ajax/js/app.js",
+		"/C/Users/Bera/Desktop/menu.json",
+		"/C/Users/Bera/AppData/Local/Temp/Rar$EXa0.909/src/ajax/index.html",
+		"/C/Users/Bera/workspace/BikeShop/css/main.css",
+		"/C/Users/Bera/workspace/BikeShop/index.html",
+		"/C/Users/Bera/workspace/BikeShop/script/script.js",
+		"/C/Users/Bera/workspace/JSCalculator/index.html",
+		"/C/Users/Bera/workspace/JSCalculator/script.js",
+		"/C/Users/Bera/workspace/JSCalculator/css/styles.css",
+		"/C/Users/Bera/Desktop/text.txt",
+		"/C/Users/Bera/workspace/Blitz/index.html",
+		"/C/Users/Bera/workspace/Blitz/css/style.css",
+		"/C/Users/Bera/Desktop/website/index.html",
+		"/C/Users/Bera/AppData/Local/Temp/Rar$DRa0.125/font-awesome-4.7.0/css/font-awesome.css",
+		"/C/Users/Bera/AppData/Local/Temp/Rar$DRa0.495/font-awesome-4.7.0/css/font-awesome.css",
+		"/C/Users/Bera/AppData/Local/Temp/Rar$DRa0.188/homepage/index.html",
+		"/C/Users/Bera/workspace/Html demo/main.html",
+		"/C/Users/Bera/Desktop/Html and CSS/JekyllWebsite/index.html",
+		"/C/Users/Bera/workspace/planets-of-the-universe/_config.yml",
+		"/C/Users/Bera/workspace/etasbasi.github.io/contact.html",
+		"/C/Users/Bera/Desktop/Html and CSS/demo/_config.yml",
+		"/C/Users/Bera/workspace/planets-of-the-universe/news.html",
+		"/C/Users/Bera/Desktop/_config.yml",
+		"/C/Users/Bera/workspace/etasbasi.github.io/_config.yml",
+		"/C/Users/Bera/Desktop/{ Mahatma Gandhi }.html",
+		"/C/Users/Bera/Desktop/TEMP/_config.yml",
+		"/C/Users/Bera/workspace/etasbasi.github.io/.travis.yml",
+		"/C/Users/Bera/workspace/etasbasi.github.io/img/timeline/highschool.jpg",
+		"/C/Users/Bera/workspace/etasbasi.github.io/_layouts/index.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/_includes/navigation.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/_includes/header.html",
+		"/C/Users/Bera/Desktop/TEMP/_includes/head.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/_includes/latest-post.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/_includes/swipe-instructions.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/latest-post.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/about.html",
+		"/C/Program Files/Git/mingw64/share/doc/git-doc/git-remote.html",
+		"/C/Users/Bera/Desktop/TEMP/_includes/timeline.html",
+		"/C/Users/Bera/Desktop/TEMP/_layouts/post.html",
+		"/C/Users/Bera/Desktop/TEMP/_layouts/blog.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/index.html",
+		"/C/Users/Bera/Desktop/TEMP/about.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/blog/index.html",
+		"/C/Users/Bera/Desktop/TEMP/_includes/header.html",
+		"/C/Users/Bera/Desktop/TEMP/_includes/about.html",
+		"/C/Users/Bera/Desktop/TEMP/_layouts/index.html",
+		"/C/Users/Bera/Desktop/TEMP/latest-post.html",
+		"/C/Users/Bera/Desktop/TEMP/blog/index.html",
+		"/C/Users/Bera/Desktop/TEMP/categories/tech.html",
+		"/C/Users/Bera/Desktop/TEMP/contact.html",
+		"/C/Users/Bera/Desktop/TEMP/Gemfile.html",
+		"/C/Users/Bera/Desktop/TEMP/tags/tutorial.html",
+		"/C/Users/Bera/Desktop/TEMP/index.html",
+		"/C/Users/Bera/workspace/etasbasi.github.io/Gemfile.html",
+		"/C/Users/Bera/workspace/personal-jekyll-theme/timeline.html",
+		"/C/Users/Bera/workspace/personal-jekyll-theme/_includes/timeline.html",
+		"/C/Users/Bera/workspace/personal-jekyll-theme/_includes/social-buttons.html",
+		"/C/Users/Bera/workspace/personal-jekyll-theme/blog/index.html",
+		"/C/Users/Bera/workspace/jekyllWebsite/_layouts/post.html",
+		"/C/Users/Bera/workspace/jekyllWebsite/_posts/2016-04-06-first-post.md",
+		"/C/Users/Bera/workspace/jekyllWebsite/blog/index.html",
+		"/C/Users/Bera/workspace/jekyllWebsite/blog/atom.xml",
+		"/C/Users/Bera/workspace/jekyllWebsite/css/main.css",
+		"/C/Users/Bera/workspace/jekyllWebsite/_config.yml",
+		"/C/Users/Bera/workspace/jekyllWebsite/_layouts/default.html",
+		"/C/Users/Bera/workspace/jekyllWebsite/index.html",
+		"/C/Users/Bera/workspace/example-app/index.html",
+		"/C/Users/Bera/workspace/example-app/_layouts/default.html",
+		"/C/Users/Bera/workspace/example-app/css/style.css",
+		"/C/Users/Bera/workspace/personal-jekyll-theme/_config.yml",
+		"/C/Users/Bera/Desktop/Html and CSS/etasbasi/index.html",
+		"/C/Users/Bera/Desktop/Html and CSS/history/css/css.css",
+		"/C/Users/Bera/Desktop/Html and CSS/history/index.html",
+		"/C/Users/Bera/Desktop/dem.java",
+		"/C/Users/Bera/Desktop/hello world.html",
+		"/C/Users/Bera/Desktop/HelloWorld.java",
+		"/C/Users/Bera/Desktop/BRHS.java",
+		"/C/Users/Bera/Desktop/Html and CSS/etasbasi/articles.html",
+		"/C/Users/Bera/Desktop/Html and CSS/Practise_1/index.html",
+		"/C/Users/Enes/Desktop/Html and CSS/etasbasi/index.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/_includes/sidebar.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/public/css/lanyon.css",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/_config.yml",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/_layouts/default.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/_layouts/post.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/index.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/etasbasi/index.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/_includes/head.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/_layouts/page.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/css/css.css",
+		"/C/Users/Enes/Downloads/lanyon-master/lanyon-master/index.html",
+		"/C/Users/Enes/Documents/GitHub/frontend-nanodegree-resume/css/style.css",
+		"/C/Users/Enes/Documents/GitHub/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/Enes/Documents/GitHub/frontend-nanodegree-resume/index.html",
+		"/C/Users/Enes/Documents/GitHub/frontend-nanodegree-resume/README.md",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/css/bootstrap.css",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/articles.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/css/smallCss.css",
+		"/C/Users/Enes/Downloads/templated-retrospect/index.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/newWS/css/css.css",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/newWS/index.html",
+		"/C/Users/Enes/Documents/GitHub/etasbasi.github.io/newWS/css/bootstrap.css",
+		"/C/Users/Enes/Desktop/Html and CSS/sT/css/css.css",
+		"/C/Users/Enes/Desktop/Html and CSS/newWS/newCss.css",
+		"/C/Users/Enes/Desktop/Html and CSS/sT/sublimeTest.html",
+		"/C/Users/Enes/Desktop/yeniHtml.html",
+		"/C/Users/Enes/Desktop/dizi.html",
+		"/C/Users/Enes/Desktop/firstSublimeC.c",
+		"/C/Users/Enes/Desktop/first.java",
+		"/C/Users/Enes/AppData/Roaming/Sublime Text 3/Packages/User/MyC.sublime-build",
+		"/C/Users/Enes/Desktop/Html and CSS/wiki_project/css/main.css",
+		"/C/Users/Enes/Desktop/Html and CSS/wiki_project/wiki.html",
+		"/C/Users/Enes/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"class",
+			"false",
+			"True",
+			"timeline",
+			"Timeline",
+			"timeline",
+			"blog",
+			"mahatmagandhi",
+			"hightlighter",
+			");\n",
+			"data",
+			"masthead",
+			"mash",
+			"ma",
+			"post-date",
+			"sidebar",
+			"bom",
+			"img",
+			"    \n",
+			"map",
+			"HTMLheaderName",
+			".container",
+			"row",
+			"float: left",
+			"row",
+			"This",
+			"\">\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"id"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"java",
+				"C:\\Users\\Bera\\Desktop\\HelloWorld.java"
+			],
+			[
+				"",
+				"C:\\Users\\Bera\\Desktop\\hello world.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

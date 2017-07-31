@@ -1,129 +1,110 @@
 
-var firstNum = "";
-var secondNum = "";
-var className;
-var equation = "";
-var equSet = false;
+	var firstNum = "",
+		 secondNum = "",
+		 equation = "",
+		 equSet = false,
+		 inputBox = $('.container > input');
 
-var inputBox = document.querySelector('input');
+	$("button[id*='num'").on('click', numClick);
 
-// Add event listeners to the number 1-9
-for (var i = 1; i <= 9; i++) {
-	className = 'num' + i;
-    document.getElementById(className).addEventListener('click', numClick, false);
-}
+	$('#add, #sub, #mul, #div').on('click', equClick);
 
+	$('#equal').on('click', equalEvent);
 
-// Add event listeners to symbols + - * /
-for(var i = 0; i <= 3; i++) {
-	var idNames = ["add", "sub", "mul", "div"];
-	var idName = idNames[i];
-	document.getElementById(idName).addEventListener('click', equClick, false); 
-}
+	$('#C').on('click', clearEvent);
 
-// Add event listener to the equals button and the C button
-
-document.getElementById('equal').addEventListener('click', equalEvent, false);
-document.getElementById('C').addEventListener('click', clearEvent, false);
-
-function numClick() {
-	if(equSet == false) {
-		firstNum += this.value;
-		inputBox.value = firstNum;
-		test();
-	} else {
-			secondNum += this.value;
-			inputBox.value = secondNum;
-			test();
-	}
-}
-
-function equClick() {
-
+	function numClick() {
 		if(equSet == false) {
-			equation = this.value;
-			equSet = true;
-			
-			test();
+			firstNum += $(this).attr('value');
+			inputBox.val(firstNum);
 		} else {
-
-			if(isNotValid()) {
-				console.log(isNaN(parseInt(firstNum)) + " " + isNaN(parseInt(secondNum)));
-				equation = this.value;
-				test();
-
-			} else {
-				inputBox.value = calculate();
-				equation = this.value;
-				test();
-			}
+			secondNum += $(this).attr('value');
+			inputBox.val(secondNum);
 		}
-	
-}
+	}
 
-function calculate() {
-	var result;
+	function equClick() {
 
+			if(equSet == false) {
+				equation = $(this).attr('value');
+				equSet = true;
+				
+			} else {
 
-			switch(equation) {
-				case "+":
-				result = parseInt(firstNum) + parseInt(secondNum);
-				break;
-				case "-":
-				result = parseInt(firstNum) - parseInt(secondNum);
-				break;
-				case "*":
-				result = parseInt(firstNum) * parseInt(secondNum);
-				break;
-				case "/":
-				result = parseInt(firstNum) / parseInt(secondNum);
-				break;
-				default:
-				console.log('you failed buddy');
+				if(isNotValid()) {
+					equation = $(this).attr('value');
+
+				} else {
+					inputBox.value = calculate();
+					equation = $(this).attr('value');
+					
+				}
 			}
+		
+	}
 
-	firstNum = result;
-	secondNum = "";
-	
-	return result;
-}
+	function calculate() {
+		var result;
 
-function equalEvent() {
+				switch(equation) {
+					case "+":
+					result = parseInt(firstNum) + parseInt(secondNum);
+					break;
+					case "-":
+					result = parseInt(firstNum) - parseInt(secondNum);
+					break;
+					case "*":
+					result = parseInt(firstNum) * parseInt(secondNum);
+					break;
+					case "/":
+					result = parseInt(firstNum) / parseInt(secondNum);
+					break;
+					default:
+					console.log('you failed buddy');
+				}
 
-	if(firstNum == "") {
+		firstNum = result;
+		secondNum = "";
+		
+		return result;
+	}
+
+	function equalEvent() {
+
+		if(firstNum == "") {
+			secondNum = "";
+			equation = "";
+			equSet = false;
+			inputBox.val("");
+
+		} else if (secondNum == "") {
+			firstNum = "";
+			equation = "";
+			equSet = false;
+		} else {
+			inputBox.val(calculate);
+		
+		}
+	}
+
+	function clearEvent() {
+		firstNum = "";
 		secondNum = "";
 		equation = "";
-		equSet = false;
-		inputBox.value = "";
-
-	} else if (secondNum == "") {
-		firstNum = "";
-		equation = "";
-		equSet = false;
-	} else {
-		inputBox.value = calculate();
-	
+		equSet = "";
+		inputBox.val("");
 	}
-}
 
-function clearEvent() {
-	firstNum = "";
-	secondNum = "";
-	equation = "";
-	equSet = "";
-	inputBox.value = "";
-}
-
-function isNotValid() {
-	var isValid = isNaN(parseInt(firstNum)) || isNaN(parseInt(secondNum));
-	return isValid;
-}
+	function isNotValid() {
+		var isValid = isNaN(parseInt(firstNum)) || isNaN(parseInt(secondNum));
+		return isValid;
+	}
 
 
-function test() {
-	console.log("First Number: " + firstNum);
-	console.log("Second Number: " + secondNum);
-	console.log("Equation: " + equation);
-	console.log("equSet: " + equSet);
-	console.log("===================================");
-}
+	function test() {
+		console.log("First Number: " + firstNum);
+		console.log("Second Number: " + secondNum);
+		console.log("Equation: " + equation);
+		console.log("equSet: " + equSet);
+		console.log("===================================");
+	}
